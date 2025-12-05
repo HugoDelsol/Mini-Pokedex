@@ -1,4 +1,4 @@
-# Moni Pokédex
+# Mini Pokédex
 
 Moni Pokédex est une application web créée dans le cadre d’un projet de cours pour explorer et consulter les Pokémon de manière interactive.
 
