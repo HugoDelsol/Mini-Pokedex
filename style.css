@@ -1,0 +1,84 @@
+ 
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ 
+.pokedex-container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 320px;
+}
+ 
+h1 {
+    color: #333;
+}
+ 
+/* Section de recherche */
+.pokedex-search {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+ 
+#pokemonInput {
+    flex-grow: 1; /* Le champ prend l'espace disponible */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+ 
+#searchButton {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e63946;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+ 
+#searchButton:hover {
+    background-color: #c42c38;
+}
+ 
+/* Carte du Pokémon */
+.pokemon-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 15px;
+    /* La carte est cachée jusqu'à la première recherche réussie */
+    visibility: hidden;
+}
+ 
+#pokemonImage {
+    width: 150px;
+    height: 150px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+ 
+#pokemonInfos {
+    text-align: left;
+}
+ 
+/* Message d'erreur */
+.error-message {
+    color: #e63946;
+    font-weight: bold;
+    /* Le message est caché par défaut */
+    display: none;
+}
+
+ 

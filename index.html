@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Pokédex</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="pokedex-container">
+        <h1>Mini Pokédex</h1>
+
+        <div class="pokedex-search">
+            <input type="text" id="pokemonInput" placeholder="Nom ou ID du Pokémon">
+            <button id="searchButton">Rechercher</button>
+        </div>
+
+        <div id="pokemonCard" class="pokemon-card">
+            <h2 id="pokemonName"></h2>
+            <img id="pokemonImage" src="" alt="Image d'un Pokémon">
+            <div id="pokemonInfos">
+                <p><strong>Types :</strong> <span id="pokemonTypes"></span></p>
+                <p><strong>Taille :</strong> <span id="pokemonHeight"></span></p>
+                <p><strong>Poids :</strong> <span id="pokemonWeight"></span></p>
+            </div>
+        </div>
+
+        <p id="errorMessage" class="error-message"></p>
+
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
